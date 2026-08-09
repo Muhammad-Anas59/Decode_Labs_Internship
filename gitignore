@@ -1,0 +1,31 @@
+# Virtual environments (all projects)
+env/
+venv/
+venve/
+.venv/
+**/env/
+**/venv/
+**/venve/
+**/.venv/
+
+# Environment variables / secrets
+.env
+*.env
+**/.env
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
